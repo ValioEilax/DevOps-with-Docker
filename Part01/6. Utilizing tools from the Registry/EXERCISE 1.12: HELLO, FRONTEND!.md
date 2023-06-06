@@ -8,6 +8,8 @@ EXPOSE 5000
 # Set the working directory inside the container to /usr/src/app
 WORKDIR /usr/src/app
 
+ENV_REACT_APP_BACKEND_URL=http://localhost:8080
+
 # Copy the entire current directory into the container's working directory
 COPY . .
 

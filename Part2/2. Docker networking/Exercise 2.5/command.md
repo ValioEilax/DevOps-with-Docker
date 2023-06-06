@@ -1,0 +1,3 @@
+```console
+docker compose up --scale compute=2
+```

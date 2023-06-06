@@ -15,8 +15,7 @@ COPY . .
 RUN go build -o server
 
 # Set the environment variables
-ENV PORT=8080
-ENV REQUEST_ORIGIN=https://example.com
+ENV REQUEST_ORIGIN=https://localhost:5000
 
 # Run the server
 CMD ["./server"]
